@@ -1,9 +1,34 @@
 h1 {
-    color: darkgreen;
+    color: blanchedalmond;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divClass {
+    text-align: center;
+    background-color: burlywood;
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
     width: 400px;
+    height: 300px;
+    justify-content: space-around;
 }
 
 #thirdDiv {
@@ -12,9 +37,16 @@ img {
     background-color: darksalmon;
     padding: 50px;
     border: burlywood 5px solid;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #spanId {
-    font-size: 18px;
+    font-size: 15px;
     margin: 50px;   
+}
+
+body {
+    background-image: url('https://images.lacucinaitaliana.it/wp-content/uploads/2017/03/26122808/pasta-copia.jpg');
+    background-size: cover;
 }

@@ -1,0 +1,13 @@
+img {
+    width: 90px;
+    height: 150px;
+}
+
+.divClass{
+    width: 600px;
+    text-align:justify;
+}
+
+body {
+    background-color: rgb(92, 182, 92);
+}
