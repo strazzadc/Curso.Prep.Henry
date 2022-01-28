@@ -213,7 +213,10 @@ function areaDelTriangulo(base, altura){
   //Escribe tu código aquí
 return ((base * altura)/2);
 }
+// otra forma de escribir una funcion.
+const nombreFuncion= () => { 
 
+}
 
 function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba

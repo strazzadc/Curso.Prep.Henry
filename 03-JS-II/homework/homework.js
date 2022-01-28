@@ -130,7 +130,7 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  if (numero % 15 === 0) {
+  if (numero % 5 === 0 && numero % 3 === 0) {
     return ('fizzbuzz');
   } else if (numero % 3 === 0) {
     return ('fizz');
@@ -173,7 +173,8 @@ function esPrimo(numero) {
     if (numero % i === 0){
       return false;
     }
-  } return true;
+  } 
+  return true;
 }
 
 function esVerdadero(valor){
@@ -194,7 +195,8 @@ function tablaDelSeis(){
   let arraytabladelseis = []
   for (let i = 0; i < 11; i++){
     arraytabladelseis.push(i * 6);
-  } return arraytabladelseis;
+  } 
+  return arraytabladelseis;
 }
 
 function tieneTresDigitos(numero){
@@ -202,10 +204,17 @@ function tieneTresDigitos(numero){
   //Escribe tu código aquí
   if (numero > 99 && numero < 1000){
     return true;
-  } else {
-    return false;
-  }
+  } 
+  return false;
 }
+
+function tieneTresDigitos2(numero) {
+  if (numero.toString().length == 3){
+    return true;
+  }
+  return false;
+}
+
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
@@ -215,10 +224,17 @@ function doWhile(numero) {
   do {
     i = i + 1;
     numero = numero + 5;
-  } while (i < 8);
+  } while (i < 8);                       // Es menor a 8 porque empieza en 0. 
   return numero;
 }
 
+for(var i = 0; i < 8; i++){
+  numero = numero + 5
+}
+return numero;
+
+
+// El bucle do while primero ejecuta y despues chequea.
 
 // No modificar nada debajo de esta línea
 // --------------------------------
